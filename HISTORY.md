@@ -5,9 +5,9 @@ dev
 ---
 
 - Removed the deprecated versionless `License :: OSI Approved :: Apache
-  Software License` classifier now that the `license` field is a valid
-  SPDX expression. This allows PEP 639-compatible SBOM tools to map the
-  license to an SPDX identifier. (#7610)
+  Software License` classifier from the package metadata. The SPDX `license`
+  expression (`Apache-2.0`) is now the single source of truth, allowing
+  PEP 639-compatible SBOM tools to map the license to an SPDX ID. (#7610)
 
 
 2.34.2 (2026-05-14)
